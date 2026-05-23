@@ -35,16 +35,36 @@ h2 {
 
 p {
     margin: auto;
-    padding: 0 15px;
+    padding: 0 30px;
     text-align: center;
 }
 
 h3 {
     margin: auto;
-    padding: 10px 0;
+    padding: 10px 0;;
     text-align: center;
 }
 
+.podcast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;}
+
+.podcast-item {
+    width: 300px;
+    text-align: center;
+}
+.section-2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-4, p {
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
 .section-5, p, h2 {
     padding: 20px;
     bottom: 20px;
@@ -56,6 +76,7 @@ h3 {
     text-align: center;
 }
 
+/* Call to Action content */
 .content {
     padding: 70px 30px;
     background-color: whitesmoke;
@@ -64,9 +85,9 @@ h3 {
 
 .call-to-action {
     padding: 15px 0;
-    width: 50%;
+    width: 20%;
     margin: 30px auto 0;
-    border-radius: 25px;
+    border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -75,33 +96,28 @@ h3 {
     filter: brightness(1.1);
 }
 
-img {
-    display: block;
-    max-width: 100%;
+.first-video {
+    padding: 100px;
+    border: 0;
     height: auto;
-    margin: 0 auto;
 }
 
-.first-img {
-    padding: 5px;
+.second-video {
+    padding: 50%;
     border: 0;
-}
-
-.second-img {
-    padding: 5px;
-    border: 0;
+    height: auto;
 }
 
 /* Footer */
 .footer {
     padding: 15px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .color-1 {
     background-color: #52796F;
-    color: black;
+    color: whitesmoke;
 }
 
 .color-2 {
@@ -120,5 +136,5 @@ img {
 
 .color-5 {
     background-color: #84a98c;
-    color: white;
+    color: black;
 }
