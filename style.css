@@ -27,6 +27,35 @@ body {
     margin: 0;
 }
 
+h2 {
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+h3 {
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section-5, p, h2 {
+    padding: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.article {
+    padding: 20px;
+    text-align: center;
+}
+
 .content {
     padding: 70px 30px;
     background-color: whitesmoke;
@@ -46,6 +75,24 @@ body {
     filter: brightness(1.1);
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.first-img {
+    padding: 5px;
+    border: 0;
+}
+
+.second-img {
+    padding: 5px;
+    border: 0;
+}
+
+/* Footer */
 .footer {
     padding: 15px;
     text-align: center;
