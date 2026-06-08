@@ -50,14 +50,14 @@ h4 {
     padding: 20px 0;
     text-align: center;
 }
-.podcast-container {
+.blog-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;}
 
-.podcast-item {
-    width: 300px;
+.blog-item {
+    width: 100%;
     text-align: center;
 }
 .section-2, h2 {
@@ -70,12 +70,13 @@ h4 {
     padding: 10px;
     text-align: center;
     color: antiquewhite;
+    width: 100%;
 }
 
-.section-5, p, h3 {
+.section-5, p, .h3, h2 {
     padding: 20px;
     bottom: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 .article {
